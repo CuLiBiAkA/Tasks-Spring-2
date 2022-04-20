@@ -10,9 +10,6 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "app")
 public class AppConfig {
 
-    @Bean(name = "timer")
-    public Timer getTimer() {
-        return new Timer();
-    }
+
 }
 
